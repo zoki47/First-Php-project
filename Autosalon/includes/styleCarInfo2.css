@@ -1,0 +1,246 @@
+/*audi_q2*/
+
+.audi_q2-naslov1 h1 {
+    text-align: center;
+    float: center;
+}
+
+.audi_q2-naslov1 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+/*audi_q3*/
+
+.audi_q3-naslov1 h1 {
+    text-align: center;
+    float: center;
+}
+
+.audi_q3-naslov1 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.audi_q3-naslov2 h2 {
+    text-align: center;
+    float: center;
+}
+
+.audi_q3-naslov3 h2 {
+    margin-left: 15%;
+}
+
+.audi_q3-naslov3 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.audi_q3-naslov4 h2 {
+    margin-left: 15%;
+}
+
+.audi_q3-naslov4 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.audi_q3-naslov5 h2 {
+    margin-left: 15%;
+}
+
+.audi_q3-naslov5 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.audi_q3-naslov5 img {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.audi_q3-naslov6 h2 {
+    margin-left: 15%;
+}
+
+.audi_q3-naslov6 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.audi_q3-naslov6 img {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.audi_q3-naslov8 h2 {
+    margin-left: 15%;
+}
+
+.audi_q3-naslov8 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.audi_q3-naslov8 img {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.audi_q3-naslov9 h2 {
+    margin-left: 15%;
+}
+
+.audi_q3-naslov9 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.audi_q3-naslov9 img {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/*audi_q5*/
+
+.audi_q5-naslov1 h1 {
+    text-align: center;
+    float: center;
+}
+
+.audi_q5-naslov1 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.audi_q5-naslov2 h2 {
+    text-align: center;
+    float: center;
+}
+
+
+/*audi_q7*/
+
+.audi_q7-naslov1 h1 {
+    text-align: center;
+    float: center;
+}
+
+.audi_q7-naslov1 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.audi_q7-naslov2 h2 {
+    text-align: center;
+    float: center;
+}
+
+
+/*audi_q8*/
+
+.audi_q8-naslov1 h1 {
+    text-align: center;
+    float: center;
+}
+
+.audi_q8-naslov1 p {
+    text-align: center;
+    float: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.audi_q8-naslov2 h2 {
+    text-align: center;
+    float: center;
+}
+
+.audi_q8-naslov3 h2 {
+    margin-left: 5%;
+}
+
+.audi_q8-naslov3 p {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.audi_q8-naslov4 h2 {
+    margin-left: 5%;
+}
+
+.audi_q8-naslov4 p {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.audi_q8-naslov5 h2 {
+    margin-left: 5%;
+}
+
+.audi_q8-naslov5 p {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.audi_q8-naslov6 h2 {
+    margin-left: 5%;
+}
+
+.audi_q8-naslov6 p {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.audi_q8-naslov7 h2 {
+    margin-left: 5%;
+}
+
+.audi_q8-naslov7 P {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.audi_q8-naslov8 h2 {
+    margin-left: 5%;
+}
+
+.audi_q8-naslov8 p {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.audi_q8-naslov10 h2 {
+    margin-left: 5%;
+}
+
+.audi_q8-naslov10 p {
+    margin-left: 5%;
+    text-align: left;
+}
+
+.audi_q8-naslov10 img {
+    margin-left: 5%;
+}

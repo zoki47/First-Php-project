@@ -1,0 +1,43 @@
+/*stil porse-box*/
+
+.porse-box {
+    background-color: gray;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+
+/*margina porse-box*/
+
+.porse-box p {
+    margin-left: 5%;
+}
+
+
+/*margina porse-box i stil fonta*/
+
+.porse-box pre {
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+
+/*zatvoreno tekst crvene boje*/
+
+.closed-crveno {
+    color: red;
+}
+
+
+/*sirina slike iznad footera*/
+
+.kontak-footer-slika img {
+    width: 100%;
+}
+
+
+/*sirina goole mape da se uklopi u ekran*/
+
+.googlemap iframe {
+    width: 100%;
+}

@@ -1,0 +1,555 @@
+                                  * {
+                                      box-sizing: border-box;
+                                  }
+                                  /* Position the image container (needed to position the left and right arrows) */
+                                  
+                                  .container {
+                                      position: relative;
+                                      margin-left: 10%;
+                                      margin-right: 10%;
+                                  }
+                                  /* Hide the images by default */
+                                  
+                                  .mySlides {
+                                      display: none;
+                                  }
+                                  /* Add a pointer when hovering over the thumbnail images */
+                                  
+                                  .cursor {
+                                      cursor: pointer;
+                                  }
+                                  /* Next & previous buttons */
+                                  
+                                  .prev,
+                                  .next {
+                                      cursor: pointer;
+                                      position: absolute;
+                                      top: 40%;
+                                      width: auto;
+                                      padding: 16px;
+                                      margin-top: -50px;
+                                      color: white;
+                                      font-weight: bold;
+                                      font-size: 20px;
+                                      border-radius: 0 3px 3px 0;
+                                      user-select: none;
+                                      -webkit-user-select: none;
+                                  }
+                                  /* Position the "next button" to the right */
+                                  
+                                  .next {
+                                      right: 0;
+                                      border-radius: 3px 0 0 3px;
+                                  }
+                                  /* On hover, add a black background color with a little bit see-through */
+                                  
+                                  .prev:hover,
+                                  .next:hover {
+                                      background-color: rgba(0, 0, 0, 0.8);
+                                  }
+                                  /* Number text (1/3 etc) */
+                                  
+                                  .numbertext {
+                                      color: #f2f2f2;
+                                      font-size: 12px;
+                                      padding: 8px 12px;
+                                      position: absolute;
+                                      top: 0;
+                                  }
+                                  /* Container for image text */
+                                  
+                                  .caption-container {
+                                      text-align: center;
+                                      background-color: #222;
+                                      padding: 2px 16px;
+                                      color: white;
+                                  }
+                                  
+                                  .row:after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  /* Six columns side by side */
+                                  
+                                  .column {
+                                      float: left;
+                                      width: 16.66%;
+                                  }
+                                  /* Add a transparency effect for thumnbail images */
+                                  
+                                  .demo {
+                                      opacity: 0.6;
+                                  }
+                                  
+                                  .active,
+                                  .demo:hover {
+                                      opacity: 1;
+                                  }
+                                  /*tekstovi paragrafi */
+                                  
+                                  .Naslov-paragraf1 h1 {
+                                      text-align: center;
+                                  }
+                                  
+                                  .Naslov-paragraf1 p {
+                                      text-align: center;
+                                      margin-left: 10%;
+                                      margin-right: 10%;
+                                  }
+                                  
+                                  .Naslov-paragraf1 h4 {
+                                      text-align: center;
+                                  }
+                                  
+                                  .Naslov-paragraf2 h1 {
+                                      text-align: center;
+                                  }
+                                  
+                                  .Naslov-paragraf2 p {
+                                      text-align: center;
+                                      margin-left: 10%;
+                                      margin-right: 10%;
+                                  }
+                                  
+                                  .Pregrada {
+                                      display: block;
+                                      background-color: black;
+                                  }
+                                  
+                                  .Naslov-paragraf3 h1 {
+                                      text-align: center;
+                                  }
+                                  
+                                  .Naslov-paragraf3 p {
+                                      text-align: center;
+                                      margin-left: 10%;
+                                      margin-right: 10%;
+                                  }
+                                  
+                                  .Naslov-paragraf4 h1 {
+                                      text-align: center;
+                                  }
+                                  
+                                  .Naslov-paragraf4 p {
+                                      text-align: center;
+                                      margin-left: 10%;
+                                      margin-right: 10%;
+                                  }
+                                  
+                                  .Naslov-paragraf5 h1 {
+                                      text-align: center;
+                                  }
+                                  
+                                  .Naslov-paragraf5 p {
+                                      text-align: center;
+                                      margin-left: 10%;
+                                      margin-right: 10%;
+                                  }
+                                  
+                                  .Naslov-paragraf6 h1 {
+                                      text-align: center;
+                                  }
+                                  
+                                  .Naslov-paragraf6 p {
+                                      text-align: center;
+                                      margin-left: 10%;
+                                      margin-right: 10%;
+                                  }
+                                  
+                                  .test1 {
+                                      float: left;
+                                  }
+                                  
+                                  .Naslov-paragraf7 h1 {
+                                      text-align: center;
+                                  }
+                                  
+                                  .Naslov-paragraf7 p {
+                                      text-align: center;
+                                      margin-left: 10%;
+                                      margin-right: 10%;
+                                  }
+                                  
+                                  .graynaslov {
+                                      background-color: gray;
+                                      color: white;
+                                  }
+                                  
+                                  * {
+                                      box-sizing: border-box;
+                                  }
+                                  /* Create two unequal columns that floats next to each other */
+                                  
+                                  .column1 {
+                                      float: left;
+                                      width: 50%;
+                                      padding: 10px;
+                                  }
+                                  /* Clear floats after the columns */
+                                  
+                                  .audi_a3-naslov2:after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  
+                                  .audi_tt-naslov3:after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  
+                                  .audi_a4-naslov3:after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  
+                                  .audi_a5-naslov3:after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  
+                                  .audi_a6-naslov4:after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  /*audi_a7*/
+                                  
+                                  .audi_a7-naslov4:after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  
+                                  .audi_a7-naslov8:after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  /*audi_a8*/
+                                  
+                                  .audi_a8-naslov4:after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  
+                                  .audi_a8-naslov5 :after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  
+                                  .audi_a8-naslov7 :after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  /*audi_q2*/
+                                  
+                                  .audi_q2-naslov2 :after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  /*audi_q3*/
+                                  
+                                  .audi_q3-naslov7 :after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  /*audi_q5*/
+                                  
+                                  .audi_q5-naslov3 :after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  /*audi_q7*/
+                                  
+                                  .audi_q7-naslov3 :after {
+                                      content: "";
+                                      display: table;
+                                      clear: both;
+                                  }
+                                  /*audi_q8*/
+                                  /*Modifikacija h,p,img,iframe itd*/
+                                  /*audi_a3*/
+                                  
+                                  .audi_a3-naslov1 h1 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a3-naslov1 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 15%;
+                                      margin-right: 15%;
+                                  }
+                                  /*audi_tt*/
+                                  
+                                  .audi_tt-naslov1 h1 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_tt-naslov1 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 15%;
+                                      margin-right: 15%;
+                                  }
+                                  
+                                  .audi_tt-naslov2 h1 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  /*audi_a4*/
+                                  
+                                  .audi_a4-naslov1 h1 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a4-naslov1 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 15%;
+                                      margin-right: 15%;
+                                  }
+                                  
+                                  .audi_a4-naslov2 h2 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  /*audi_a5*/
+                                  
+                                  .audi_a5-naslov1 h1 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a5-naslov1 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 15%;
+                                      margin-right: 15%;
+                                  }
+                                  
+                                  .audi_a5-naslov2 h2 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  /*audi_a6*/
+                                  
+                                  .audi_a6-naslov1 h1 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a6-naslov1 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 10%;
+                                      margin-right: 15%;
+                                  }
+                                  
+                                  .audi_a6-naslov2 h2 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a6-naslov6 iframe {
+                                      float: right;
+                                  }
+                                  
+                                  .audi_a6-naslov5 img {
+                                      float: center;
+                                      margin-left: 4%;
+                                  }
+                                  
+                                  .audi_a6-video1 h2 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a6-video1 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 10%;
+                                      margin-right: 15%;
+                                  }
+                                  
+                                  .audi_a6-video1 iframe {
+                                      margin-left: 20%;
+                                      margin-right: 20%;
+                                  }
+                                  
+                                  .audi_a6-naslov3 h2 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a6-naslov3 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 10%;
+                                      margin-right: 15%;
+                                  }
+                                  
+                                  .audi_a6-naslov3 iframe {
+                                      margin-left: 20%;
+                                      margin-right: 20%;
+                                  }
+                                  
+                                  .audi_a6-naslov6 h2 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a6-naslov6 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 10%;
+                                      margin-right: 15%;
+                                  }
+                                  /*audi_a7*/
+                                  
+                                  .audi_a7-naslov1 h1 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a7-naslov1 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 10%;
+                                      margin-right: 15%;
+                                  }
+                                  
+                                  .audi_a7-naslov2 h2 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a7-naslov3 h2 {
+                                      margin-left: 5%;
+                                  }
+                                  
+                                  .audi_a7-naslov3 p {
+                                      margin-left: 5%;
+                                      text-align: left;
+                                      float: left;
+                                  }
+                                  
+                                  .audi_a7-naslov5 h2 {
+                                      margin-left: 5%;
+                                  }
+                                  
+                                  .audi_a7-naslov5 p {
+                                      margin-left: 5%;
+                                      text-align: left;
+                                      float: left;
+                                  }
+                                  
+                                  .audi_a7-naslov6 h2 {
+                                      margin-left: 5%;
+                                  }
+                                  
+                                  .audi_a7-naslov6 p {
+                                      margin-left: 5%;
+                                      text-align: left;
+                                      float: left;
+                                  }
+                                  
+                                  .audi_a7-naslov7 h2 {
+                                      margin-left: 5%;
+                                  }
+                                  
+                                  .audi_a7-naslov7 p {
+                                      margin-left: 5%;
+                                      text-align: left;
+                                      float: left;
+                                  }
+                                  
+                                  .klasican34 {
+                                      text-align: left;
+                                      margin-left: 15%;
+                                  }
+                                  
+                                  .klasican35 {
+                                      text-align: left;
+                                      float: right;
+                                      margin-left: 15%;
+                                  }
+                                  
+                                  .audi_a7-naslov8 .column1 img {
+                                      float: left;
+                                  }
+                                  
+                                  .markantan1 {
+                                      text-align: left;
+                                      margin-left: 15%;
+                                  }
+                                  
+                                  .markantan2 {
+                                      text-align: left;
+                                      float: right;
+                                      margin-left: 15%;
+                                  }
+                                  /*Audi_a8*/
+                                  
+                                  .audi_a8-naslov1 h1 {
+                                      text-align: center;
+                                  }
+                                  
+                                  .audi_a8-naslov1 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 15%;
+                                      margin-right: 15%;
+                                  }
+                                  
+                                  .audi_a8-naslov2 h2 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a8-naslov2 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 15%;
+                                      margin-right: 15%;
+                                  }
+                                  
+                                  .audi_a8-naslov3 h2 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .audi_a8-naslov3 p {
+                                      text-align: center;
+                                      float: center;
+                                      margin-left: 15%;
+                                      margin-right: 15%;
+                                  }
+                                  
+                                  .audi_a8-naslov4 h2 {
+                                      text-align: center;
+                                      float: center;
+                                  }
+                                  
+                                  .slicica2 {
+                                      margin-left: 5%;
+                                      margin-right: 5%;
+                                  }
+                                  
+                                  .audi_a8-naslov8 img {
+                                      width: 100%;
+                                  }

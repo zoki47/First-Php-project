@@ -1,0 +1,80 @@
+    /* header*/
+    
+    nav {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    ul.menu {
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+        overflow: hidden;
+        background-color: black;
+    }
+    
+    ul.menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        float: left;
+        margin: 0%;
+    }
+    
+    ul.menu li a:hover:not(.active) {
+        background-color: goldenrod;
+    }
+    
+    .header-login {
+        float: right;
+        padding-top: 1%;
+        padding-right: 1%;
+    }
+    
+    .ul menu li {
+        float: left;
+    }
+    
+    @media screen and (max-width: 600px) {
+        ul.menu li.right,
+        ul.menu li {
+            float: none;
+        }
+    }
+    
+    .login-status {
+        background-color: chartreuse;
+        padding: 0%;
+        margin: 0%;
+    }
+    /*Content */
+    
+    .automobili {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: lightslategrey;
+    }
+    
+    .automobili .auto {
+        /*strech */
+        flex: 1 1 150px;
+        /* no strech*/
+        flex: 0 1 150px;
+        margin: 5px;
+    }
+    /*footer */
+    
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: black;
+        color: white;
+    }
